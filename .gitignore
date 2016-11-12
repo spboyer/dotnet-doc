@@ -1,0 +1,4 @@
+[Bb]in/
+[Oo]bj/
+project.lock.json
+.DS_Store

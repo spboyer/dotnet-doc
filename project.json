@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0-*",
+  "description": "dotnet command for search the docs for dotnet and asp.net core",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": true,
+    "outputName": "dotnet-doc"
+  },
+  "dependencies": {
+    "System.Net.Http": "4.3.0-*",
+    "Newtonsoft.Json": "9.0.1",
+    "System.Runtime.Serialization.Primitives": "4.1.1-*"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.1.0-preview1-001100-00"
+        }
+      },
+      "imports": [
+        "dnxcore50",
+        "portable-net45+win8"
+      ]
+    }
+  }
+}
