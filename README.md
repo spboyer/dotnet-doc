@@ -11,8 +11,8 @@ dotnet install tool -g dotnet-doc
 ## Usage
 
 ```bash
-dotnet doc
-Usage: dotnet-doc [arguments] [options]
+docs
+Usage: docs [arguments] [options]
 
 Arguments:
   Terms
@@ -28,12 +28,13 @@ Example search for any **MVC** content
 
 ```bash
 # opens default browser with search results from docs.microsoft.com
-dotnet doc mvc
+docs mvc
 ```
 
 Return 5 results within console
+
 ```bash
-dotnet doc mvc --console --number 5
+docs mvc --console --number 5
 
 Items found: 6584
 
@@ -57,5 +58,5 @@ https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introductio
 
 ```bash
 # open the first result
-dotnet doc ".NET Docker" -l
+docs ".NET Docker" -l
 ```
