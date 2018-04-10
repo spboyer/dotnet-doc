@@ -49,7 +49,6 @@ namespace ConsoleApplication
         if (Inline | Lucky)
         {
           string api = $"https://docs.microsoft.com/api/search?search={Terms}&locale={locale}&$top={Results}";
-          Console.WriteLine(api);
 
           var items = GetResults(api);
 
