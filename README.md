@@ -1,4 +1,4 @@
-# dotnet-doc
+# docs
 
 Global tool for search [docs.microsoft.com](http://docs.microsoft.com) using the command line.
 
