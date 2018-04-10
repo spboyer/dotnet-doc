@@ -2,6 +2,12 @@
 
 Global tool for search [docs.microsoft.com](http://docs.microsoft.com) using the command line.
 
+## Installation
+
+```bash
+dotnet install tool -g dotnet-doc
+```
+
 ## Usage
 
 ```bash
