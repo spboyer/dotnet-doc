@@ -48,6 +48,7 @@ https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introductio
 ```
 
 **Feeling Lucky?**
+
 ```bash
 # open the first result
 dotnet doc ".NET Docker" -l
