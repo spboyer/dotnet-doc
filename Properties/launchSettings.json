@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "dotnet-doc": {
+      "commandName": "Project",
+      "commandLineArgs": "mvc"
+    }
+  }
+}
