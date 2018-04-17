@@ -3,3 +3,5 @@
 project.lock.json
 .DS_Store
 package/
+.vs/
+.build/

@@ -84,21 +84,19 @@ namespace ConsoleApplication
       if (System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
       {
         cmd = "xdg-open";
+        Process.Start(new ProcessStartInfo(cmd, url));
       }
 
       if (System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
       {
         cmd = "open";
+        Process.Start(new ProcessStartInfo(cmd, url));
       }
 
       if (System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
       {
-        cmd = "start";
+        Process.Start(Utils.GetDefaultBrowserPath(), url);
       }
-
-      var psi = new ProcessStartInfo { FileName = cmd, Arguments = url };
-      var process = new Process { StartInfo = psi };
-      process.Start();
     }
 
     public async static Task<Docs> GetResults(string url)

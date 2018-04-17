@@ -10,8 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/bin/Debug/netcoreapp2.0/dotnet-doc.dll",
-            "args": [],
+            // C:\Users\shboyer\github\dotnet-doc\.build\bin\dotnet-doc\Debug\netcoreapp2.0
+            "program": ".build/bin/dotnet-doc/Debug/netcoreapp2.0/dotnet-doc.dll",
+            "args": ["mvc"],
             "cwd": "${workspaceFolder}",
             // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
             "console": "internalConsole",
