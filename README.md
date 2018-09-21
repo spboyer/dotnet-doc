@@ -5,7 +5,7 @@ Global tool for search [docs.microsoft.com](http://docs.microsoft.com) using the
 ## Installation
 
 ```bash
-dotnet install tool -g dotnet-doc
+dotnet install tool --global dotnet-doc
 ```
 
 ## Usage
