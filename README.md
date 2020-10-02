@@ -1,6 +1,6 @@
 # docs
 
-Global tool for search [docs.microsoft.com](http://docs.microsoft.com) using the command line.
+Global tool for search [https://docs.microsoft.com:80/?WT.mc_id=dotnetdoc-github-shboyer](https://docs.microsoft.com:80/?WT.mc_id=dotnetdoc-github-shboyer) using the command line.
 
 ## Installation
 
@@ -27,7 +27,7 @@ Options:
 Example search for any **MVC** content
 
 ```bash
-# opens default browser with search results from docs.microsoft.com
+# opens default browser with search results from https://docs.microsoft.com:80/?WT.mc_id=dotnetdoc-github-shboyer
 docs mvc
 ```
 
@@ -39,19 +39,19 @@ docs mvc --console --number 5
 Items found: 6584
 
 ASP.NET MVC 2
-https://docs.microsoft.com/en-us/aspnet/mvc/videos/mvc-2/
+https://docs.microsoft.com/aspnet/mvc/videos/mvc-2/?WT.mc_id=dotnetdoc-github-shboyer
 
 ASP.NET MVC 1
-https://docs.microsoft.com/en-us/aspnet/mvc/videos/mvc-1/
+https://docs.microsoft.com/aspnet/mvc/videos/mvc-1/?WT.mc_id=dotnetdoc-github-shboyer
 
 ASP.NET MVC 4
-https://docs.microsoft.com/en-us/aspnet/mvc/videos/mvc-4/
+https://docs.microsoft.com/aspnet/mvc/videos/mvc-4/?WT.mc_id=dotnetdoc-github-shboyer
 
 Microsoft.AspNetCore.Mvc.ApplicationParts Namespace
-https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.applicationparts
+https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.mvc.applicationparts?WT.mc_id=dotnetdoc-github-shboyer
 
 Adding a View to an MVC app
-https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/adding-a-view
+https://docs.microsoft.com/aspnet/mvc/overview/getting-started/introduction/adding-a-view?WT.mc_id=dotnetdoc-github-shboyer
 ```
 
 **Feeling Lucky?**
