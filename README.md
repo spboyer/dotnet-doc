@@ -1,6 +1,6 @@
 # docs
 
-Global tool for search [https://docs.microsoft.com/?WT.mc_id=dotnetdoc-github-shboyer](https://docs.microsoft.com/?WT.mc_id=dotnetdoc-github-shboyer) using the command line.
+Global tool for search [docs.microsoft.com](https://docs.microsoft.com/?WT.mc_id=dotnetdoc-github-shboyer) using the command line.
 
 ## Installation
 
@@ -27,7 +27,7 @@ Options:
 Example search for any **MVC** content
 
 ```bash
-# opens default browser with search results from https://docs.microsoft.com/?WT.mc_id=dotnetdoc-github-shboyer
+# opens default browser with search results from docs.microsoft.com
 docs mvc
 ```
 
