@@ -1,6 +1,6 @@
 # docs
 
-Global tool for search [docs.microsoft.com](http://docs.microsoft.com) using the command line.
+Global tool for search [docs.microsoft.com](https://docs.microsoft.com/?WT.mc_id=dotnet-0000-shboyer) using the command line.
 
 ## Installation
 
